@@ -1,0 +1,50 @@
+#modale {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+#modale .contenu {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#modale .contenu .bouton-fermer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: Verdana;
+
+    position: relative;
+    top: -11px;
+    left: 283px;
+}
+
+#modale .contenu .bouton-fermer:hover {
+    background-color: darkred;
+}
+
+
+#bouton {
+    width: 100px; 
+    height: 30px; 
+    background-color: red; 
+    color: white;
+}
