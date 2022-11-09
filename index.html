@@ -7,9 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/modal.css" />
     <link rel="stylesheet" href="assets/css/caroussel.css" />
+    <link rel="stylesheet" href="assets/css/meteo.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script defer src="assets/js/modal.js"></script>
     <script defer src="assets/js/caroussel.js"></script>
+    <script defer src="assets/js/meteo.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -44,6 +46,31 @@
 
       <div id="fleche-droite" class="bouton">
         <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+
+    <!-- METEO -->
+
+    <div id="meteo">
+      <img id="iconeMeteo" />
+      <div>
+        <div id="ville"></div>
+        <div id="temperature"></div>
+      </div>
+      <div id="bouton-prevision" class="bouton">
+        <i class="fa-solid fa-caret-right"></i>
+      </div>
+      <div id="prevision">
+        <div id="lendemain">
+          <img>
+          <span id="temperature-min"></span>
+          <span id="temperature-max"></span>
+        </div>
+        <div id="sur-lendemain">
+          <img>
+          <span id="temperature-min"></span>
+          <span id="temperature-max"></span>
+        </div>
       </div>
     </div>
   </body>

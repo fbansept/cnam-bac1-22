@@ -1,0 +1,27 @@
+#meteo {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+#bouton-prevision {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#temperature {
+    font-size: 40px;
+}
+
+#prevision {
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+    display: flex;
+}
+
+#prevision.ouverte {
+    width:300px;
+}

@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const images = ["droit1.jpg", "droit2.jpg", "droit3.jpg"];
 
 let indexImageActuelle = 0;
